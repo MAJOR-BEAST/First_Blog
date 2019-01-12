@@ -11,3 +11,6 @@ def index(request):
 def about(request):
     return render(request, 'mainblog/about.html', {'title':'about page'})
 
+def Services(request):
+	return render(request, 'mainblog/Services.html', {'title':'Our Services'})
+

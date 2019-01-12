@@ -1,0 +1,46 @@
+{% extends 'mainblog/base.html' %}
+{% block content %}
+ <head>
+ 	 <link rel="stylesheet" href="style.css">
+ 	   <title>About</title>
+</head>
+<body>
+
+ <div class="background-video">
+	<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+		<source src="bgv.mp4" type="video/mp4">
+		Video not supported.
+	</video>
+</div> 
+
+  
+     <div class="smallbox">
+ 	                <img src="profile.jpeg" class="profile">
+ 	                <h1 align="left">I'M</h1><h1 id="name" align="right">PAURUSH TIWARI</h1>
+ 	                <h5 id="sub">Web developer & Freelancer<h5>
+ 	                <p>
+ 	                Hello! I’m Paurush.Web Developer with over 5 months of experience specializing in front as well as back end development. Experienced with all stages of the development cycle in python for dynamic web projects.Strong background in management, competative programming and leadership.If you need a website or graphic design work,then I am the man for the job!
+ 	                </p>
+<br><br>
+      <a class="button" href="#">
+      Get in Touch
+    </a>
+<br><br>
+      <ul >
+          <li><a href="https://www.facebook.com"><img class="fb" src="fb1.png" height="50px" width="50px" onmouseover="this.src='fb.png'" onmouseout="this.src='fb1.png'""> </a></li>
+          
+          <li><a href="https://twitter.com/"><img src="twit1.png" height="50px" width="50px" onmouseover="this.src='twit.png'" onmouseout="this.src='twit1.png'""></a></li>
+          
+          <li><a href="https://www.linkedin.com"><img src="link1.png" height="50px" width="50px" onmouseover="this.src='link.png'" onmouseout="this.src='link1.png'""></a></li>
+         
+          <li><a href="https://plus.google.com/discover"><img src="go1.png" height="50px" width="50px" onmouseover="this.src='go.png'" onmouseout="this.src='go1.png'""></a></li>
+          
+          <li><a href="https://github.com/"><img src="Git1.png" height="50px" width="50px" onmouseover="this.src='Git.png'" onmouseout="this.src='Git1.png'""></a></li>
+      </ul>
+      </div>
+ </div>
+
+   
+</body>
+
+{% endblock content %}

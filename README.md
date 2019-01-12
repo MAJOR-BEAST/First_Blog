@@ -1,2 +1,4 @@
 # Django-Blog
 A blog app made with django . 
+# BLOG
+# BLOG
